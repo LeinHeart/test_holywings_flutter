@@ -1,0 +1,41 @@
+name: test_holywings
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #UI
+  carousel_slider: ^4.2.1
+  flutter_svg: ^2.0.5
+
+  google_fonts: 
+
+  #State Management
+  get: ^4.6.6
+
+  #Utility Packages
+  http: ^1.1.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+
+  
+  assets:
+    - assets/images/
+    - assets/svg/
+
